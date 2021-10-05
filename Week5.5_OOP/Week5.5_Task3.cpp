@@ -11,6 +11,9 @@ public:
 		std::cout << "Name is " << name << std::endl;
 	}
 	//operator+ 추가하세요
+	Animal operator+ (const Animal& ob) {
+		return Animal(name + ob.name);
+	}
 };
 int main() {
 	Animal cat("Nabi");
