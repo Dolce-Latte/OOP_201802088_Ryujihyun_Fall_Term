@@ -12,8 +12,8 @@ public:
 	~My_cat();
 
 	//eat 함수 선언하시오
-	int& eat(int w);
 	void show_status() const;
+	My_cat& eat(int w);
 };
 
 My_cat::My_cat() :name(NULL), weight(10) { }
@@ -33,9 +33,9 @@ My_cat::~My_cat() {		//Destructor
 	if (name) delete[] name;
 }
 
-int& My_cat::eat(int w) {
+My_cat& My_cat::eat(int w){
 	weight += w;
-	return weight;
+	return *this;
 }
 //eat 함수를 구현하세요.
 void My_cat::show_status() const {
