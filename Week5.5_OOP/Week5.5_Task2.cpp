@@ -33,11 +33,12 @@ My_cat::~My_cat() {		//Destructor
 	if (name) delete[] name;
 }
 
+//eat 함수를 구현하세요.
 My_cat& My_cat::eat(int w){
 	weight += w;
 	return *this;
 }
-//eat 함수를 구현하세요.
+
 void My_cat::show_status() const {
 	std::cout << " Weight : " << weight << std::endl;
 }
