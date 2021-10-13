@@ -30,13 +30,13 @@
     <ClCompile Include="Week6_Assignment3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Week6_Task4.cpp">
+    <ClCompile Include="Week6_Assignment4.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Week6_Task5.cpp">
+    <ClCompile Include="Week6_Assignment5.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Week6_Task6.cpp">
+    <ClCompile Include="Week6_Assignment6.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
