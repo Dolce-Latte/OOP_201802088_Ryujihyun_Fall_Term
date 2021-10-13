@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 namespace ns {
 	void display();
 	class Test {
@@ -10,8 +11,8 @@ namespace ns {
 void ns::Test::display() { cout << "Test::display()\n"; }
 void ns::display() { cout << "display()\n"; }
 int main() {
-	Test obj;
-	display();
+	ns::Test obj;
+	ns::display();
 	obj.display();
 	return 0;
 }
