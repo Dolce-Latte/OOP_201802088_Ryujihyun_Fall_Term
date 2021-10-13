@@ -27,7 +27,7 @@
     <ClCompile Include="Week6_Assignment2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Week6_Task3.cpp">
+    <ClCompile Include="Week6_Assignment3.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Week6_Task4.cpp">
