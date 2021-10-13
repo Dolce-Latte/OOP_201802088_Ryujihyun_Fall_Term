@@ -13,7 +13,7 @@ public:
 };
 
 int main() {
-	std::ofstream out("testOverloading.txt");
+	std::ofstream out("testOverloading_1.txt");
 
 	AnyString a("Hello, this is operator overloading test!!!");
 	std::string output = a.getAnyString();
