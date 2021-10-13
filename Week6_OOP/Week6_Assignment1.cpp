@@ -6,8 +6,8 @@ public:
 protected:
 	int age;
 };
-class Cat : public Animal {/*.....*/ };
-class Dog : public Animal {/*.....*/ };
+class Cat : virtual public Animal {/*.....*/ };
+class Dog : virtual public Animal {/*.....*/ };
 
 class DogCat : public Cat, public Dog {
 public:
