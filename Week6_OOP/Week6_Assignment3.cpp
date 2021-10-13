@@ -10,7 +10,7 @@ int main() {
 	for (std::vector<int>::iterator itr = vec.begin(); itr != vec.end();
 		++itr) {
 		if (*itr == 22) {
-			vec.erase(itr);
+			itr = vec.erase(itr);
 		}
 	}
 	// Print Entire vector contents after the removal of element
