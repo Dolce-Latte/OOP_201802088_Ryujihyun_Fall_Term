@@ -7,6 +7,7 @@ class AnyString {
 
 public:
 	AnyString(const std::string& anyString) : anyString(anyString) {}
+	
 	std::string getAnyString() {
 		return "Stored String ::" + anyString;
 	}
