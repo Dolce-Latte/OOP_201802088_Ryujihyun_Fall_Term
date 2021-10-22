@@ -18,5 +18,14 @@
     <ClCompile Include="Week7_과제1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Week7_과제2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Week7_과제3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Week7_과제4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
