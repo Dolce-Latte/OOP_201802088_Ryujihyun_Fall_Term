@@ -6,6 +6,7 @@ public:
 		p = new char[10];
 		std::cout << "Parent Constructor invocation" << std::endl;
 	}
+	//소멸자도 virtual로 선언
 	virtual ~Parent() {
 		delete[] p;
 		std::cout << "Parent Destructor invocation" << std::endl;
