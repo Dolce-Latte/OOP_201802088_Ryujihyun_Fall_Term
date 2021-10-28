@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 class Parent {
 	char* p;
 public:
@@ -6,7 +6,7 @@ public:
 		p = new char[10];
 		std::cout << "Parent Constructor invocation" << std::endl;
 	}
-	//¼Ò¸êÀÚµµ virtual·Î ¼±¾ð
+	//ì†Œë©¸ìžë„ virtualë¡œ ì„ ì–¸
 	virtual ~Parent() {
 		delete[] p;
 		std::cout << "Parent Destructor invocation" << std::endl;
