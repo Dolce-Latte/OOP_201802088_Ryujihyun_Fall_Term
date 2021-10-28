@@ -19,7 +19,7 @@ public:
 	}
 	static GlobalClass* instance()
 	{
-		if (s_instance == NULL)
+		if (!s_instance)
 			s_instance = new GlobalClass();
 		else
 			std::cout << "이미 Logger가 존재합니다." << std::endl;

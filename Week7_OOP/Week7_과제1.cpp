@@ -41,6 +41,7 @@ public:
 };
 
 int main() {
+	//Context context = Context(new Operation''())
 	Context* context = new Context(new OperationAdd());
 	std::cout << "10 + 5 = " << context->executeStrategy(10, 5) << std::endl;
 	context = new Context(new OprationSubstract());
