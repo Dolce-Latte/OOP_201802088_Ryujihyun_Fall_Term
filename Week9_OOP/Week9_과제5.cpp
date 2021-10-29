@@ -11,7 +11,7 @@ public:
 class Rect : public Shape {
 public:
 	// write code
-	void Draw() {
+	void Draw() override {
 		std::cout << "Rect Draw" << std::endl;
 	}
 };
@@ -19,7 +19,7 @@ public:
 class Circle : public Shape {
 public:
 	// write code
-	void Draw() {
+	void Draw() override {
 		std::cout << "Circle Draw" << std::endl;
 	}
 };
@@ -27,7 +27,7 @@ public:
 class triangle : public Shape {
 public:
 	// write code
-	void Draw() {
+	void Draw() override {
 		std::cout << "Triangle Draw" << std::endl;
 	}
 };
