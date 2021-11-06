@@ -4,10 +4,7 @@
 class Base {
 	std::string s;
 public:
-	Base() : s("Base") {
-		std::cout << "Base class constructor" <<
-			std::endl;
-	}
+	Base() : s("Base") { std::cout << "Base class constructor" <<std::endl;}
 	virtual void what() { std::cout << s << std::endl; }
 };
 class Derived : public Base {
@@ -15,7 +12,7 @@ class Derived : public Base {
 public:
 	Derived() : s("Derived"), Base() {
 		std::cout << "Derived class constructor" << std::endl; }
-			void what() { std::cout << s << std::endl; }
+		void what() { std::cout << s << std::endl; }
 	};
 	int main() {
 		Base p;
