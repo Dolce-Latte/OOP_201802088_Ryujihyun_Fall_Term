@@ -21,6 +21,7 @@ int main() {
 	std::cout << " === Pointer ===" << std::endl;
 	Base* xx = &c;//OK.upcast
 	Derived yy = dynamic_cast<Derived&>(p); // 잘못된 레퍼런스 캐스팅 Base를 Derived로 다운캐스팅 시도
+	//여기도 assert사용
 	yy.what();
 	getchar();
 	return 0;

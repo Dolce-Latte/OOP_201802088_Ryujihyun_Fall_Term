@@ -23,7 +23,9 @@ int main() {
 	std::cout << "=== Pointer ===" << std::endl;
 	Base* xx = &c; //Ok. upcast
 	Derived* yy = dynamic_cast<Derived*>(&p); //Down cast 시도
-	yy->what();
+	//yy 객체가 nullptr임
+	//assert(yy!=nullptr);
+	yy->what();//여기서 에러발생
 	getchar();
 	return 0;
 }
