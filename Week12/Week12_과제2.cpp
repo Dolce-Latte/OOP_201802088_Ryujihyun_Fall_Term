@@ -7,7 +7,7 @@ void swap(T& x, T& y) {
 	y = tmp;
 }
 template<>
-typename std::string swap<void>(std::string& x, std::string& y) {
+void swap(std::string& x, std::string& y) {
 	std::string tmp = x;
 	x = y;
 	y = tmp;
@@ -22,7 +22,7 @@ int main() {
 	std::string f = "Hello";
 	swap<int>(a, b);
 	swap<float>(c, d);
-	swap<std::string>(e, f);
+	swap(e, f);
 	std::cout << "a: " << a << ", b: " << b << std::endl;
 	std::cout << "c: " << c << ", d: " << d << std::endl;
 	std::cout << "e: " << e << ", f: " << f << std::endl;
