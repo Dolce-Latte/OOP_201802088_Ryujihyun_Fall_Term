@@ -36,5 +36,8 @@
     <ClCompile Include="Week14_과제5.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Week14_과제6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
